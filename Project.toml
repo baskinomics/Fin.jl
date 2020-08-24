@@ -2,3 +2,10 @@ name = "Fin"
 uuid = "27ccd209-3d9e-48b8-a269-62b5b0639c94"
 authors = ["Sean Baskin"]
 version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

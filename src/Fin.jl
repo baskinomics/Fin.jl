@@ -1,5 +1,7 @@
 module Fin
 
-greet() = print("Hello World!")
+export greet
+
+greet(name::String) = print("Hello, $name")
 
 end # module
